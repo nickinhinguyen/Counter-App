@@ -16,9 +16,10 @@ Select display structure as Android app
 
 For each screen of the app, there are 2 files that structure the view:
 - An XML file that contains the layout of the screen. The file is located under app > res > layout
-- A Java class that control the functionality of the screen. The file is located under src file
+- A Java class that control the functionality of the screen. The file is located under the src folder
 
 **Edit the UI layout**
+
 Open the activity_main.xml file under main/res/layout. You can choose to drag and drop components in the design tab or you can view the xml code. 
 
 Add a Textview to display the counter and 2 buttons for increment and decrement the counter
@@ -32,6 +33,7 @@ Edit the text field for the button to display "+" and "-"
 Feel free to play around with the contrains and declared attribute to make the layout looks nicer (https://abhiandroid.com/ui/constraintlayout)
 
 **Make the Screen Interactive**
+
 Open the MainActivity.java class
 - We have a different type of UI controls available in android to implement the user interface for our android applications. In this project, we use the TextView and Button user interface control. We need to declare the variables that are bind to the components declare in the UI. Make sure to import TextView and Button type
 ```sh
