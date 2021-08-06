@@ -20,7 +20,7 @@ For each screen of the app, there are 2 files that structure the view:
 
 **Edit the UI layout**
 
-Open the activity_main.xml file under main/res/layout. You can choose to drag and drop components in the design tab or you can view the xml code. 
+Open the activity_main.xml file under main/res/layout. You can choose to drag and drop components in the design tab or you can edit the xml source code. 
 
 Add a Textview to display the counter and 2 buttons for increment and decrement the counter
 ![alt text](https://github.com/nickinhinguyen/Counter-App/blob/master/img/design_view.png)
