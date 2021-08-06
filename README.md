@@ -35,7 +35,7 @@ Feel free to play around with the contrains and declared attribute to make the l
 **Make the Screen Interactive**
 
 Open the MainActivity.java class
-- We have a different type of UI controls available in android to implement the user interface for our android applications. In this project, we use the TextView and Button user interface control. We need to declare the variables that are bind to the components declare in the UI. Make sure to import TextView and Button type
+- We have a different type of UI controls available in android to implement the user interface for our android applications. In this project, we use the TextView and Button user interface controls. We need to declare the variables that are bind to the components declare in the UI. Make sure to import TextView and Button types
 ```sh
 import android.view.View;
 import android.widget.Button;
