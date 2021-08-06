@@ -8,9 +8,11 @@
 3. In the SDK setup, all required components will be preselected, click Next
 4. After the download is finished, select Empty Activity in the project template
 5. Choose a project name, make sure to select Java as the language
-
+![alt text](https://github.com/nickinhinguyen/Counter-App/blob/master/img/app_configue.png)
 
 ## Project Structure
+Select display structure as Android app
+![alt text](https://github.com/nickinhinguyen/Counter-App/blob/master/img/structure.png)
 
 For each screen of the app, there are 2 files that structure the view:
 - An XML file that contains the layout of the screen. The file is located under app > res > layout
@@ -20,8 +22,13 @@ For each screen of the app, there are 2 files that structure the view:
 Open the activity_main.xml file under main/res/layout. You can choose to drag and drop components in the design tab or you can view the xml code. 
 
 Add a Textview to display the counter and 2 buttons for increment and decrement the counter
+![alt text](https://github.com/nickinhinguyen/Counter-App/blob/master/img/design_view.png)
+
 For each component, you need to give it an id  which will be used to identify the component in the Java class
+![alt text](https://github.com/nickinhinguyen/Counter-App/blob/master/img/id.png)
+
 Edit the text field for the button to display "+" and "-"
+
 Feel free to play around with the contrains and declared attribute to make the layout looks nicer (https://abhiandroid.com/ui/constraintlayout)
 
 **Make the Screen Interactive**
@@ -88,14 +95,16 @@ public class MainActivity extends AppCompatActivity {
 Using the device similator, we can pick any android devices to deploy and run the app. 
 **Configure Android virtual device**
 1. In the main IntelliJ IDEA toolbar, click the devices list and choose AVD Manager
-2. Click on Create Virtual Device > Phone > Pixel 3 > Next
-3. Choose an OS version for the device and download
-4. Once finished, you can see the device is being selected for the project
+![alt text](https://github.com/nickinhinguyen/Counter-App/blob/master/img/adv_set_1.png)
+3. Click on Create Virtual Device > Phone > Pixel 3 > Next
+4. Choose an OS version for the device and download
+5. Once finished, you can see the device is being selected for the project
+![alt text](https://github.com/nickinhinguyen/Counter-App/blob/master/img/adv_setup_2.png)
 
 **Build and Deploy the App**
  Selected and click the Run button
  The Android emulator will launch after the build has successfully finished, with our application started
- 
+ ![alt text](https://github.com/nickinhinguyen/Counter-App/blob/master/img/phone.png)
 ## Exercise
 Implement the functionality for the decrement button
 
