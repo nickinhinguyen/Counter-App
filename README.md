@@ -7,7 +7,7 @@
 2. Select an Android application on the left pannel
 3. In the SDK setup, all required components will be preselected, click Next
 4. After the download is finished, select Empty Activity in the project template
-5. Choose a project name, make sure to select Java as the language
+5. Name the project as CounterApp, make sure to select Java as the language
 ![alt text](https://github.com/nickinhinguyen/Counter-App/blob/master/img/app_configue.png)
 
 ## Project Structure
@@ -93,6 +93,7 @@ public class MainActivity extends AppCompatActivity {
 ```
 ## Build and run the application
 Using the device similator, we can pick any android devices to deploy and run the app. 
+
 **Configure Android virtual device**
 1. In the main IntelliJ IDEA toolbar, click the devices list and choose AVD Manager
 ![alt text](https://github.com/nickinhinguyen/Counter-App/blob/master/img/adv_set_1.png)
@@ -102,9 +103,12 @@ Using the device similator, we can pick any android devices to deploy and run th
 ![alt text](https://github.com/nickinhinguyen/Counter-App/blob/master/img/adv_setup_2.png)
 
 **Build and Deploy the App**
- Selected and click the Run button
- The Android emulator will launch after the build has successfully finished, with our application started
- ![alt text](https://github.com/nickinhinguyen/Counter-App/blob/master/img/phone.png)
+
+Selected and click the Run button
+The Android emulator will launch after the build has successfully finished, with our application started
+ 
+![alt text](https://github.com/nickinhinguyen/Counter-App/blob/master/img/phone.png)
+ 
 ## Exercise
 Implement the functionality for the decrement button
 
