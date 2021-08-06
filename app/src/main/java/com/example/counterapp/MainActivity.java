@@ -21,7 +21,6 @@ public class MainActivity extends AppCompatActivity {
         //biding view components
         counterDisplay = findViewById(R.id.counter);
         incrementButton = findViewById(R.id.add_button);
-        decrementButton = findViewById(R.id.minus_button);
 
         //set the counter to 0 when the app created
         counterDisplay.setText("0");
